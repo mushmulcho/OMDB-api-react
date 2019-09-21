@@ -20,8 +20,11 @@ html, body {
     padding: 5px 5px 5px 5px;
     float:left;
     width: 170px;
-    height: 300px;
+    height: 328px;
 
+}
+.movieBox>div{
+    box-shadow:0 -2px 4px 0px rgba(0, 0, 0, 0.2), 0px -3px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .input-search{
     width:208px;
@@ -29,18 +32,39 @@ html, body {
 .movieBox:hover{
     border-color: aqua;
 }
-.movieBox-header{
+.small{
+    margin: 0px 0px 6px 0px;
+}
+.small.title{
     padding: 3px 10px 3px 5px;
-    height: 80px;
+    height: 56px;
+    
 }
-.movie-small-pic{
-    width:90%;
-    height: 90%;
-}
-.image{
-
-}
-.image.small{
+.image-small{
     height: 200px;
-    width: 150px;
+    width: 154px;
+}
+.image-big{
+    float: left;
+    height: 400px;
+    width: 288px;
+}
+.movie-box-page{
+    max-width: 956px;
+    min-width: 556px;
+}
+.body-poster{
+    min-height: 406px;
+}
+.movie-poster{
+    float : left;
+    display: inline-block;
+}
+.body-overview{
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+.body-overview>h5{
+    margin-bottom: 20px;
+    height: 262px;
 }
