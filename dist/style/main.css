@@ -1,0 +1,46 @@
+html, body {
+    font-size: 1em;
+    background: silver;
+}
+.cover-container{
+    max-width: 20em;
+    padding: 1.5em;
+    margin-left:auto!important;
+    margin-right:auto!important;
+}
+.movie-container{
+    padding: 1.5em;
+}
+.movieBox{
+    text-align: center;
+    border-style: solid;
+    border-width:3px;
+    border-color:black;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    float:left;
+    width: 170px;
+    height: 300px;
+
+}
+.input-search{
+    width:208px;
+}
+.movieBox:hover{
+    border-color: aqua;
+}
+.movieBox-header{
+    padding: 3px 10px 3px 5px;
+    height: 80px;
+}
+.movie-small-pic{
+    width:90%;
+    height: 90%;
+}
+.image{
+
+}
+.image.small{
+    height: 200px;
+    width: 150px;
+}
