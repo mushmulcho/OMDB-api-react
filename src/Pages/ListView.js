@@ -15,6 +15,7 @@ class ListView extends React.Component {
       data:[],
       movieInfo:{}
     }
+    //create states witch will show movie , list or search page
     this.addItem = this.addItem.bind(this);
     this.onMovieClick = this.onMovieClick.bind(this);
   }

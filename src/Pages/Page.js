@@ -58,19 +58,6 @@ class Page extends Component {
         )
     }
     render(){
-        // let allInfo = [];
-        // let info = "";
-        // for(let key in this.props.movieInfo){
-        //     info = this.props.movieInfo[key];
-        //     console.log(info)
-        //     if(typeof info == "number" || typeof info =="string"){
-        //         allInfo.push(
-        //             <div key={key}>{key} - {info}</div>
-        //         ) 
-        //     }
-            
-        // }
-        // return allInfo;
         return this.test(this.props.movieInfo)
     }
 }
