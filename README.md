@@ -1,4 +1,4 @@
-# CoreTech Home Test - Creating Single Page Application
+Creating Single Page Application
 ##
 Page 1:
 - Search for a movie/series using the API of http://www.omdbapi.com (you'll need to generate a key from them)
