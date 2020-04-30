@@ -13,7 +13,7 @@
     "babel-loader": "^8.0.6",
     "bootstrap": "^4.3.1",
     "i": "^0.3.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "less": "^3.10.3",
     "react-hot-loader": "^4.11.1",
     "webpack": "^4.34.0",
